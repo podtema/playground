@@ -9,6 +9,7 @@
     
     <title>React Playground</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <script src="build/react.js"></script>
     <script src="build/react-dom.js"></script>
     <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
@@ -17,12 +18,16 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div id="react-app">
-        <h1>Loading...</h1>
-        <p class="lead">If you see this text and you're expecting something else, well... Get debugging :)</p>
+	      <div class="jumbobox vertical-center">
+	        <div class="row">
+			  <div class="col-md-3"></div>
+			  <div class="col-md-6 text-center"><h1>Loading...</h1></div>
+			  <div class="col-md-3"></div>
+			</div>
+		</div>
       </div>
-
     </div>
 
 
