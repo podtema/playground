@@ -24,3 +24,8 @@
   -webkit-justify-content : center;
   justify-content : center;
 }
+
+.content {
+	margin-top: 10em;
+	min-height: 400px;
+}
