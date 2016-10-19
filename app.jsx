@@ -32,7 +32,6 @@ function Application(props) {
 			</div>
 		</div>
 		);
-
 }
 
 Application.propTypes = {
