@@ -28,32 +28,43 @@
 	}
 
 	.container {
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 	}
 
 
 	.header {
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
+		-ms-flex-pack: justify;
+		    justify-content: space-between;
 		}
 
 	.menu {
 		display: inline-block;
-		align-self: center; 
+		-ms-flex-item-align: center;
+		    -ms-grid-row-align: center;
+		    align-self: center; 
 
 	}
 
 	.logo {
-		align-self: center;
+		-ms-flex-item-align: center;
+		    -ms-grid-row-align: center;
+		    align-self: center;
 		margin-left: 3em;
 	}
 
 
 	.menu ul {
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+		-ms-flex-direction: row;
+		    flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 		list-style-type: none;
 		margin: 0;
 	  padding: 1rem; 
@@ -64,7 +75,8 @@
 		text-transform: uppercase;
 		font-size: 0.85em;
 		font-weight: 300;
-		align-items: center;
+		-ms-flex-align: center;
+		    align-items: center;
 		padding: 1rem;
 	}
 
@@ -85,7 +97,9 @@
 		width: 40px;
 		height: 40px;
 		object-fit: contain;
-		align-self: center;
+		-ms-flex-item-align: center;
+		    -ms-grid-row-align: center;
+		    align-self: center;
 	}
 
 	/* HERO */
@@ -95,9 +109,12 @@
 	}
 
 	.hero {
+		display:-ms-flexbox;
 		display:flex;
-		flex-direction: column;
-		align-items: center;
+		-ms-flex-direction: column;
+		    flex-direction: column;
+		-ms-flex-align: center;
+		    align-items: center;
 		background-image: url("../images/header-bkg@1x.jpg");
 		background-size: cover;
 		/*position:relative;*/
@@ -114,10 +131,14 @@
 	}
 
 	.hire-button {
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		-ms-flex-direction: column;
+		    flex-direction: column;
+		-ms-flex-pack: center;
+		    justify-content: center;
+		-ms-flex-align: center;
+		    align-items: center;
 		border: 3px solid green;
 		height: 50px;
 	  text-align:center;
@@ -137,15 +158,20 @@
 
 	/* Facts */
 	.facts-block {
+		display: -ms-flexbox;
 		display: flex;
 		height: 400px;
-		align-items: center;
+		-ms-flex-align: center;
+		    align-items: center;
 	}
 
 	.facts-line {
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-around;	
-		flex-basis: 100%;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;	
+		-ms-flex-preferred-size: 100%;	
+		    flex-basis: 100%;
 	}
 
 	.fact {
@@ -160,9 +186,11 @@
 	/* Nice to meet you */
 
 	.nice-block {
+		display: -ms-flexbox;
 		display: flex;
 		background: #F6F8FA;
-		justify-content: space-between;
+		-ms-flex-pack: justify;
+		    justify-content: space-between;
 		/*flex-wrap: wrap;*/
 	}
 
