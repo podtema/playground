@@ -1,4 +1,3 @@
-/* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	body {
 		font-family: "Montserrat", sans-serif;
@@ -19,7 +18,7 @@
 	}
 
 	p {
-	font-family: OpenSans-Light;
+	font-family: "OpenSans-Light", sans-serif;
 	font-size: 0.875em;
 	}
 
@@ -117,13 +116,11 @@
 		    align-items: center;
 		background-image: url("../images/header-bkg@1x.jpg");
 		background-size: cover;
-		/*position:relative;*/
 	  height:100vh;
 	  width:100vw;
 	}
 
 	.name {
-		/*position:absolute;*/
 	  top:50%;
 	  text-align:center;
 	  width:100%;
@@ -191,14 +188,12 @@
 		background: #F6F8FA;
 		-ms-flex-pack: justify;
 		    justify-content: space-between;
-		/*flex-wrap: wrap;*/
 	}
 
 	.nice-block img {
 		position: relative;
 		left: -100px;
 		z-index: 99;
-		/*width: 50vw;*/
 		height: 830px;
 	}
 
