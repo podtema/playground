@@ -19,7 +19,8 @@
 
 	p {
 	font-family: "OpenSans-Light", sans-serif;
-	font-size: 0.875em;
+	font-size: 1em;
+	line-height: 1.8em;
 	}
 
 	.wrap {
@@ -199,20 +200,34 @@
 
 	.nice-text {
 	width: 40vw;
-	margin-right: 10rem;
+	margin-right: 5rem;
 	margin-top: 10rem;
 	font-size: 1.2em;
 	line-height: 2.5rem;
 	}
 
-	.nice-text h4 {
+	.nice-text h4, .expertise-block h4 {
 		font-size: 4em;
 		font-color: black;
 		font-weight: bold;
-		margin-top: 2.2em;
+		margin-top: 1em;
 		margin-bottom: 1.4em;
 	}
+
+	/* Expertise */
+	.expertise-highlights {
+		margin-top: 5rem;
+	}
+
+	.expertise-text {
+		font-size: 1em;
+
+	}
+
 }
+
+
+
 
 
 @media (min-width: 992px) { 
