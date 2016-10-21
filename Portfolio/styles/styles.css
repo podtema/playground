@@ -47,7 +47,6 @@
 		-ms-flex-item-align: center;
 		    -ms-grid-row-align: center;
 		    align-self: center; 
-
 	}
 
 	.logo {
@@ -56,7 +55,6 @@
 		    align-self: center;
 		margin-left: 3em;
 	}
-
 
 	.menu ul {
 		display: -ms-flexbox;
@@ -102,7 +100,7 @@
 		    align-self: center;
 	}
 
-	/* HERO */
+	/* HERO Image */
 	.container-fluid {
 		margin: 0;
 		padding: 0;
@@ -181,7 +179,7 @@
 	}
 
 
-	/* Nice to meet you */
+	/* Nice to meet you Block */
 
 	.nice-block {
 		background: #F6F8FA;
@@ -208,12 +206,11 @@
 		margin-bottom: 1.4em;
 	}
 
-	/* Expertise */
+	/* Expertise Block */
 
 	.expertise-block {
 		margin-top: 5em;
 		margin-bottom: 5em;
-
 	}
 
 	.expertise-levels {
@@ -259,29 +256,33 @@
 
 	.expertise-highlights {
 		margin-top: 5em;
-
 	}
 
 
 	.expertise-highlights-text {
+		display: -ms-flexbox;
 		display: flex;
 		font-size: 1em;
-		justify-content: space-between;		
+		-ms-flex-pack: justify;
+		    justify-content: space-between;		
 	}
 
 	.expertise-highlights-text img {
-		flex-basis: 10%;
+		-ms-flex-preferred-size: 10%;
+		    flex-basis: 10%;
 		margin-right: 2em;
 		width: 50px;
 		height: 50px;
 	}
 
-	/* Logos */
+	/* Tech Skills Block  */
 	.logo-block {
 		margin-top: 5em;
+		display: -ms-flexbox;
 		display: flex;
 		background: #F6F8FA;
-		justify-content: center;
+		-ms-flex-pack: center;
+		    justify-content: center;
 		text-align: center;
 	}
 
@@ -301,7 +302,6 @@
 
 	.hawks {
 	transition: transform .8s ease-in-out;
-
 	}
 
 	.hawks:hover {
@@ -310,7 +310,6 @@
 
  	.logo-block {
  	margin-bottom: 3em;
- 	border: 1px solid red;
  }
  	.row-logo-last {
  		margin-bottom: 6em;
