@@ -224,6 +224,7 @@
 
 	.expertise-levels {
 		text-transform: uppercase;
+
 	}
 
 	.fed-scale {
@@ -247,19 +248,19 @@
 	.fed-level {
 		width: 82%;
 		height: 3px;
-		background-color: black;
+		background-color: darkgray;
 	}
 
 	.uxui-level {
 		width: 88%;
 		height: 3px;
-		background-color: black;
+		background-color: darkgray;
 	}
 
 	.mrkt-level {
 		width: 84%;
 		height: 3px;
-		background-color: black;
+		background-color: darkgray;
 	}
 
 	.expertise-highlights {
