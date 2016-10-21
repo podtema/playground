@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
 	body {
 		font-family: "Montserrat", sans-serif;
 	}
@@ -184,47 +184,41 @@
 	/* Nice to meet you */
 
 	.nice-block {
-		display: -ms-flexbox;
-		display: flex;
 		background: #F6F8FA;
-		-ms-flex-pack: justify;
-		    justify-content: space-between;
+		overflow: hidden;
 	}
 
 	.nice-block img {
-		position: relative;
-		left: -100px;
-		z-index: 99;
-		height: 830px;
+		max-width: 50vw;
 	}
 
 	.nice-text {
-	width: 40vw;
-	margin-right: 5rem;
-	margin-top: 10rem;
+	/*min-width: 40vw;*/
+	padding: 5em;
 	font-size: 1.2em;
 	line-height: 2.5rem;
+	display: block;
 	}
 
-	.nice-text h4, .expertise-block h4 {
+	.nice-text h4, .expertise-block h4, .logo-block h4 {
 		font-size: 4em;
 		font-color: black;
 		font-weight: bold;
 		margin-top: 1em;
 		margin-bottom: 1.4em;
-		border: 1 solid red;
 	}
 
 	/* Expertise */
 
 	.expertise-block {
-		margin-top: 6em;
-		margin-bottom: 6em;
+		margin-top: 5em;
+		margin-bottom: 5em;
+
 	}
 
 	.expertise-levels {
 		text-transform: uppercase;
-
+		margin-top: 1em;
 	}
 
 	.fed-scale {
@@ -264,8 +258,10 @@
 	}
 
 	.expertise-highlights {
-		margin-top: 5rem;
+		margin-top: 5em;
+
 	}
+
 
 	.expertise-highlights-text {
 		display: flex;
@@ -280,16 +276,50 @@
 		height: 50px;
 	}
 
+	/* Logos */
+	.logo-block {
+		margin-top: 5em;
+		display: flex;
+		background: #F6F8FA;
+		justify-content: center;
+		text-align: center;
+	}
 
+	.logo-block h4 {
+		margin-top: 2em;
+		text-align:left;
+	}
 
+	.logo-block img {
+		max-height: 50px;
+	}
 
+	.row-logo {
+		margin-top: 100px;
+		text-transform: uppercase;
+	}
 
-@media (min-width: 992px) { 
+	.hawks {
+	transition: transform .8s ease-in-out;
 
+	}
+
+	.hawks:hover {
+		transform: rotate(1080deg);
+	}
+
+ 	.logo-block {
+ 	margin-bottom: 3em;
+ 	border: 1px solid red;
  }
+ 	.row-logo-last {
+ 		margin-bottom: 6em;
+ 	}
 
+}
 
-@media (min-width: 768px) {  
+@media (min-width: 550px) {  
+
 
 }
 
