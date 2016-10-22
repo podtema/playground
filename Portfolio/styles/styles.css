@@ -1,4 +1,6 @@
 @media (min-width: 900px) {
+	
+	/* General Custom Styles */
 	body {
 		font-family: "Montserrat", sans-serif;
 	}
@@ -23,6 +25,12 @@
 	line-height: 1.8em;
 	}
 
+	.selected {
+		border-bottom: 3px solid #50c878;
+	}
+
+	/* Containers and Wrappers */
+	
 	.wrap {
 		margin-top: 1rem;
 	}
@@ -34,7 +42,8 @@
 		    flex-direction: column;
 	}
 
-
+	/* Header and top menu */
+	
 	.header {
 		display: -ms-flexbox;
 		display: flex;
@@ -82,10 +91,6 @@
 		font-weight: 400;
 	}
 
-	.selected {
-		border-bottom: 3px solid #50c878;
-	}
-
 	.menu a, a:hover, a:visited {
 		color: black;
 		text-decoration: none;
@@ -101,6 +106,7 @@
 	}
 
 	/* HERO Image */
+	
 	.container-fluid {
 		margin: 0;
 		padding: 0;
@@ -153,6 +159,7 @@
 	}
 
 	/* Facts */
+	
 	.facts-block {
 		display: -ms-flexbox;
 		display: flex;
@@ -200,7 +207,7 @@
 
 	h4 {
 		font-size: 4em;
-		font-color: black;
+		color: rgba(0,0,0,1);
 		font-weight: bold;
 		margin-top: 1em;
 		margin-bottom: 1.4em;
@@ -257,7 +264,6 @@
 	.expertise-highlights {
 		margin-top: 5em;
 	}
-
 
 	.expertise-highlights-text {
 		display: -ms-flexbox;
@@ -318,16 +324,16 @@
 
  	.logo-block {
  	margin-bottom: 3em;
- }
+ 	}
  	.row-logo-last {
  		margin-bottom: 6em;
  	}
 
-/* Portfolio Block */
+	/* Portfolio Block */
 
-.row .portfolio-block{
-	margin-bottom: 2em;
-}
+	.row .portfolio-block{
+		margin-bottom: 2em;
+	}
 }
 
 @media (min-width: 550px) {  
