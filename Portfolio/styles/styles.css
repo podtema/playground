@@ -198,7 +198,7 @@
 	display: block;
 	}
 
-	.nice-text h4, .expertise-block h4, .logo-block h4 {
+	h4 {
 		font-size: 4em;
 		font-color: black;
 		font-weight: bold;
@@ -276,6 +276,11 @@
 	}
 
 	/* Tech Skills Block  */
+
+	.logo-col {
+		border: 1px solid red;
+	}
+
 	.logo-block {
 		margin-top: 5em;
 		display: -ms-flexbox;
@@ -300,12 +305,15 @@
 		text-transform: uppercase;
 	}
 
+	.row-logo img {
+		max-height: 50px;
+	}
 	.hawks {
 	transition: transform .8s ease-in-out;
 	}
 
 	.hawks:hover {
-		transform: rotate(1080deg);
+		transform: rotate(360deg);
 	}
 
  	.logo-block {
@@ -315,6 +323,11 @@
  		margin-bottom: 6em;
  	}
 
+/* Portfolio Block */
+
+.row .portfolio-block{
+	margin-bottom: 2em;
+}
 }
 
 @media (min-width: 550px) {  
