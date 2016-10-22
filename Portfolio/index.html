@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <title>Artem Rosnovskiy || Front End UX/UI Developer</title>
-
+	
+	<!-- Tether is required for tooltips by Bootstrap 4 alpha --> 
+	<script type="text/javascript" src="js/tether.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+	
+
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/tether.min.css">
+
+	<script>
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
   </head>
   <body>
     <div class="wrap">
@@ -249,26 +260,26 @@
 								<div class="row">
 							    <div class="col-md-12">
 							        <div class="row portfolio-block">
-							             <a href="https://www.behance.net/gallery/44121063/Farmslist-Website" target="_blank" data-gallery="portfolio-gallery" class="col-sm-4">
+							             <a href="https://www.behance.net/gallery/44121063/Farmslist-Website" target="_blank" class="col-sm-4" data-toggle="tooltip" title="Farmslist Site Concept">
 							                <img src="images/works/farmslist.jpg" class="img-fluid">
 							            </a>
-							             <a href="https://www.behance.net/gallery/43572333/Product-Website-Redesign" target="_blank" data-gallery="portfolio-gallery" class="col-sm-4">
+							             <a href="https://www.behance.net/gallery/43572333/Product-Website-Redesign" target="_blank" class="col-sm-4" data-toggle="tooltip" title="Product Website Redesign concepts">
 							                <img src="images/works/redactor.jpg" class="img-fluid">
 							            </a>
-							             <a href="https://www.behance.net/gallery/44121479/Cartering-website" data-gallery="portfolio-gallery" class="col-sm-4">
+							             <a href="https://www.behance.net/gallery/44121479/Cartering-website" class="col-sm-4" data-toggle="tooltip" title="A website for a catering service">
 							                <img src="images/works/cartering.jpg" class="img-fluid">
 							            </a>
 							            
 							        </div>
 
 							        <div class="row portfolio-block">
-							            <a href="http://instagram.com/p/pZfG1fPfuX/" data-toggle="lightbox" class="col-sm-4" data-title="">GOtags.co.uk</a>
+							            <a href="http://youtu.be/WuX8U2xAjlE" data-gallery="portfolio-gallery" class="col-sm-4" data-toggle="tooltip" title="Product promo video made with AfterEffects"><img src="images/works/aftereffects.jpg" class="img-fluid" class="img-fluid"></a>
 
-							            <a href="images/works/farmslist.jpg" data-toggle="lightbox" data-gallery="portfolio-gallery" class="col-sm-4" data-title="Farmslist" data-footer="Farmslist is a neat marketing tool for small farmers.">
-							                <img src="images/works/farmslist.jpg" class="img-fluid">
+							            <a href="https://www.behance.net/gallery/44122235/BMW-Micro-Site-(School-Project)" class="col-sm-4" data-toggle="tooltip" title="BMW Nano Site Concept">
+							                <img src="images/works/bmw.jpg" class="img-fluid">
 							            </a>
-							            <a href="images/works/farmslist.jpg" data-toggle="lightbox" data-gallery="portfolio-gallery" class="col-sm-4" data-title="Farmslist" data-footer="Farmslist is a neat marketing tool for small farmers.">
-							                <img src="images/works/farmslist.jpg" class="img-fluid">
+							            <a href="https://www.behance.net/gallery/43527235/Personal-Site-Concept" class="col-sm-4" data-toggle="tooltip" title="Personal web presence concept">
+							                <img src="images/works/podtema.jpg" class="img-fluid">
 							            </a>
 							            
 							        </div>
@@ -281,17 +292,6 @@
 
 						
 
-
 				</div>
-
-				<!-- Ekko lightbox -->
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.min.css.map"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.min.js.map"></script>
-
-				<script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-	    			event.preventDefault();
-	    			$(this).ekkoLightbox();
-				});</script>
   </body>
 </html>
