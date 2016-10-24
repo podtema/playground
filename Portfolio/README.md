@@ -4,12 +4,12 @@ This is going to be my portfolio and resume page. It is work in progress, so be 
 
 ## Features
 
-* Top navigation menu
-* Hero image, my name and availability
-* Quick Facts
-* Quick Introduction
-* My Areas of expertise, with levels and quick descriptions
-* Technical Skills (icons and logos)
-* Portfolio (media grid, lightbox, external links)
-* Contact Form
-* Footer with some extra links
+&#10003; Top navigation menu
+&#10003; Hero image, my name and availability
+&#10003; Quick Facts
+&#10003; Quick Introduction
+&#10003; My Areas of expertise, with levels and quick descriptions
+&#10003; Technical Skills (icons and logos)
+&#10003; Portfolio
+&#10003; Contact Form
+&#10003; Footer
