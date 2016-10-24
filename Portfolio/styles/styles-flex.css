@@ -242,11 +242,51 @@ ul, ul li {
 	padding: 1em;
 	flex-wrap: wrap;
 }
-.expertise-highlights-text div {
+
+.logo-block {
+	margin-top: 5em;
+	margin-bottom: 5em;
+	padding-top: 3em;
+	padding-bottom: 5em;
+	display:flex;
+	background: #F6F8FA;
+	width: 100vw;
+	justify-content: center;
+}
+
+.container {
+	width: 75vw;
 
 }
 
+.logo-row img {
+	max-height: 50px;
+	margin: 2em;
 }
+
+.logo-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	justify-content: center;
+}
+
+.logo-row h6 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.hawks {
+	transition: transform .8s ease-in-out;
+}
+
+.hawks:hover {
+	transform: rotate(360deg);
+}
+
+}
+
+
 
 
 
@@ -544,6 +584,37 @@ ul, ul li {
 
 .hawks:hover {
 	transform: rotate(360deg);
+}
+
+.portfolio-container {
+	display: flex;
+	width: 75vw;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.portfolio-block {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.portfolio-block img {
+	width: 300px;
+	margin: 30px auto;
+	box-shadow: 1 1 1 red;
+}
+
+.portfolio-block img:hover {
+	-webkit-filter: blur(10px); -moz-filter: blur(10px);
+	-o-filter: blur(10px); -ms-filter: blur(10px); 
+	filter: url(#blur); filter: blur(10px);  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2');
+	-webkit-transition: .5s -webkit-filter linear;
+	-moz-transition: .5s -moz-filter linear;
+	-o-transition: .5s -o-filter linear;
+	transition: .5s filter linear
 }
 
 }
