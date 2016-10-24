@@ -3,7 +3,7 @@
 $myemail  = "inbox@podtema.com";
 
 /* Check all form inputs using check_input function */
-$name = check_input($_POST['yourname'], "Enter your name");
+$name = check_input($_POST['name'], "Enter your name");
 $email    = check_input($_POST['email']);
 $comments = check_input($_POST['comments'], "Write your comments");
 
@@ -13,23 +13,13 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
     show_error("E-mail address not valid");
 }
 
-/* If URL is not valid set $website to empty */
-if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $website))
-{
-    $website = '';
-}
-
 /* Let's prepare the message for the e-mail */
 $message = "Hello!
 
 Your contact form has been submitted by:
 
-Name: $yourname
+Name: $name
 E-mail: $email
-URL: $website
-
-Like the website? $likeit
-How did he/she find it? $how_find
 
 Comments:
 $comments
@@ -37,11 +27,15 @@ $comments
 End of message
 ";
 
+$headers = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
 /* Send the message using mail() function */
-mail($myemail, $subject, $message);
+mail($myemail, $subject, $message, $headers);
 
 /* Redirect visitor to the thank you page */
-header('Location: thanks.htm');
+header('Location: index.html');
 exit();
 
 /* Functions we used */

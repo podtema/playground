@@ -131,6 +131,12 @@ ul, ul li {
 	font-size:.75em;
 }
 
+.hire-span a, a:hover, a:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+
 .facts {
 	display: flex;
 	flex-direction: row;
