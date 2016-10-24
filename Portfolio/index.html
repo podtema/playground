@@ -19,7 +19,7 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		
 		<!-- Custom styles -->
-		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="styles/styles-flex.css">
 		
 		<!-- Tether tooltip initialization -->
 		<script>
@@ -28,78 +28,65 @@
 			})
 		</script>
 	</head>
-  	
   	<body>
-    	<div class="wrap">
-    		<div class="container">
-    		
-    			<!-- Navigation bar -->
-	    		<div class="header">
+    	<div class="flex-wrap">
+    		<header>
+    			<div class="navbar">
 	    			<div class="logo">
 	    				<img class="morda-square" src="images/morda-square@3x.jpg" alt="Morda of the Face" />
 	    			</div>
-	    				<div class="menu">
-		    				<ul>
-			    				<li class="selected"><a href="#">About</a></li>
-			    				<li><a href="#">Portfolio</a></li>
-			    				<li><a href="#">Skills</a></li>
-			    				<li><a href="#">Contacts</a></li>
-		    				</ul>
-						</div>
-					</div>
+	    			<ul class="menu-items">
+			   			<li class="selected"><a href="#">About</a></li>
+			   			<li><a href="#">Portfolio</a></li>
+			   			<li><a href="#">Skills</a></li>
+			   			<li><a href="#">Contacts</a></li>
+		   			</ul>
+				</div>
+			</header>	
+			
+			<section class="hero">		
+				<div class="name">
+					<h1>Artem Rosnovskiy</h1>
+					<h3>Front End UX/UI Developer</h3>
+				</div>
+				<div class="hire">
+					<a href="#"><span class="hire-span">Available for hire</span></a>
+				</div>
 			</div>
+			
 
-
-				<!-- HERO -->
-				<div class="container-fluid">
-					<div class="hero">
-						<div class="name">
-							<h1>Artem Rosnovskiy</h1>
-							<h3>Front End UX/UI Developer</h3>
-						</div>
-								
-						<div class="hire-button">
-							<a href="#"><span class="hire-span">Available for hire</span></a>
-						</div>
-					</div>
-				</div>	
-
-				<!-- Quick Facts Block -->
-
-				<div class="facts-block row">
-					<div class="facts-line">
-						<div class="fact fact1">
-							<h1>17</h1><br><span class="facts-text">years of experience</span>
-						</div>
-
-						<div class="fact fact2">
-							<h1>10</h1><br><span class="facts-text">years in tech</span>
-						</div>
-
-						<div class="fact fact3">
-							<h1>12</h1><br><span class="facts-text">web sites built</span>
-						</div>
-
-						<div class="fact fact4">
-							<h1>1</h1><br><span class="facts-text">mobile app</span>
-						</div>
-						
-					</div>
+			<section class="facts">
+				<div class="fact">
+					<h1>17</h1><br><span class="facts-text">years of experience</span>
 				</div>
 
-
-				<!-- Introduction Block -->
-				<div class="row nice-block">
-					<div class="col-sm-6"><img src="images/mt-hood@2x.jpg" class="img-fluid" alt="Mt Hood" /></div>
-					<div class="col-sm-6 nice-text">
-						<h4><span class="selected">N</span>ice to meet you!</h4>
-						<p>Sincerely glad to see you here! This may well be a beginning of a wonderful friendship or a fruitful partnership. </p>
-						<p>I’ve been working in national media for 10 years when I realized that it’s time for a new beginning. To make this beginning 100% new, I also moved from mother Russia to Canada, and later to the United States. </p>
-						<p>I’ve been living in Vancouver, Washington, a quiet suburb of Portland, Oregon since 2013. I really enjoy the weather here, and as an avid hiker, I’m happy to have the Pacific Ocean and a dozen of major mountains practically in the backyard.</p>
-					</div>
+				<div class="fact">
+					<h1>10</h1><br><span class="facts-text">years in tech</span>
 				</div>
 
-					<!-- Expertise Block -->
+				<div class="fact">
+					<h1>12</h1><br><span class="facts-text">web sites built</span>
+				</div>
+
+				<div class="fact">
+					<h1>1</h1><br><span class="facts-text">mobile app</span>
+				</div>		
+			</section>
+				
+
+
+				
+			<section class="nice-block">
+				<img src="images/mt-hood@2x.jpg" alt="Mt Hood" />
+				<div class="nice-text">
+					<h4><span class="selected">N</span>ice to meet you!</h4>
+					<p>Sincerely glad to see you here! This may well be a beginning of a wonderful friendship or a fruitful partnership. </p>
+					<p>I’ve been working in national media for 10 years when I realized that it’s time for a new beginning. To make this beginning 100% new, I also moved from mother Russia to Canada, and later to the United States. </p>
+					<p>I’ve been living in Vancouver, Washington, a quiet suburb of Portland, Oregon since 2013. I really enjoy the weather here, and as an avid hiker, I’m happy to have the Pacific Ocean and a dozen of major mountains practically in the backyard.</p>
+				</div>
+			</section>
+
+			<!--		
 
 				<div class="container expertise-block">
 					<h4><span class="selected">M</span>y Expertise</h4>
@@ -153,7 +140,7 @@
 					</div>
 				</div>
 							
-				<!-- Technical Skills -->
+				
 
 				<div class="container-fluid">
 					<div class="row logo-block">
@@ -267,7 +254,7 @@
 					</div>
 				</div>
 
-				<!-- Portfolio Block -->
+				
 
 				<div class="container">
 					<div class="portfolio-block">
@@ -301,8 +288,7 @@
 				            </a>
 			    	    </div>
 			    	</div>
-				</div>
-			</div>
+				</div> -->
 		</div>
 	</body>
 </html>
