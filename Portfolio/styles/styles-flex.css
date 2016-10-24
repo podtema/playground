@@ -1,5 +1,9 @@
 @media (min-width: 300px) {  
 
+body {
+	margin: 0;
+}
+
 h1 {
 	font-size: 2em;
 	font-family: "Montserrat", sans-serif;
@@ -134,11 +138,12 @@ ul, ul li {
 	align-items: center;
 	justify-content: space-around;
 	height: 300px;
+	text-align: center;
 }
 
 .facts h1 {
 	color: black;
-	text-align: center;
+	
 }
 
 .fact {
@@ -284,6 +289,129 @@ ul, ul li {
 	transform: rotate(360deg);
 }
 
+.portfolio-container {
+	display: flex;
+	width: 75vw;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.portfolio-block {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.portfolio-block img {
+	width: 300px;
+	margin: 30px auto;
+}
+
+.portfolio-block img:hover {
+	-webkit-filter: blur(10px); -moz-filter: blur(10px);
+	-o-filter: blur(10px); -ms-filter: blur(10px); 
+	filter: url(#blur); filter: blur(10px);  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2');
+	-webkit-transition: .5s -webkit-filter linear;
+	-moz-transition: .5s -moz-filter linear;
+	-o-transition: .5s -o-filter linear;
+	transition: .5s filter linear
+}
+
+.contacts-block {
+	margin-top: 5em;
+	display:flex;
+	background: #F6F8FA;
+	flex-wrap: wrap;
+	width: 100vw;
+	justify-content: space-between;
+}
+
+.contacts-block img {
+	width:50vw;
+}
+
+.contacts-text {
+	margin-right: 10em;
+	margin-top: 10em;	
+}
+
+.contacts-block {
+	margin-top: 5em;
+	margin-bottom: 0;
+	display:flex;
+	background: #F6F8FA;
+	flex-wrap: wrap;
+	width: 100vw;
+	justify-content: space-between;
+}
+
+.contacts-block img {
+	width:50vw;
+}
+
+.contacts-text {
+	margin-right: 10em;
+	margin-top: 10em;	
+}
+
+input[type=text]{	
+	border: none;
+	border-bottom: 1px solid black;
+	background: #F6F8FA;
+	width: 100%;
+	margin-bottom: 2em;
+	height: 3em;
+}
+
+input[type=text] {	
+	border: none;
+	border-bottom: 2px solid black;
+	background: #F6F8FA;
+	width: 100%;
+	margin-bottom: 2em;
+	height: 3em;
+}
+
+textarea {
+	border: none;
+	border-bottom: 2px solid black;
+	background: #F6F8FA;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    border:0 none;
+    cursor:pointer;
+    border: 3px solid green;
+	height: 50px;
+	text-align:center;
+	width:100%;
+	background: rgba(0,0,0,1);
+	color:#fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:1em;	
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-align: center;
+	width: 100vw;
+	background: black;
+	color:gray;
+	font-weight: 100;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin: 0;
+}
 }
 
 
@@ -604,7 +732,6 @@ ul, ul li {
 .portfolio-block img {
 	width: 300px;
 	margin: 30px auto;
-	box-shadow: 1 1 1 red;
 }
 
 .portfolio-block img:hover {
@@ -615,6 +742,82 @@ ul, ul li {
 	-moz-transition: .5s -moz-filter linear;
 	-o-transition: .5s -o-filter linear;
 	transition: .5s filter linear
+}
+
+.contacts-block {
+	margin-top: 5em;
+	margin-bottom: 0;
+	display:flex;
+	background: #F6F8FA;
+	flex-wrap: wrap;
+	width: 100vw;
+	justify-content: space-between;
+}
+
+.contacts-block img {
+	width:50vw;
+}
+
+.contacts-text {
+	margin-right: 10em;
+	margin-top: 10em;	
+}
+
+input[type=text]{	
+	border: none;
+	border-bottom: 1px solid black;
+	background: #F6F8FA;
+	width: 100%;
+	margin-bottom: 2em;
+	height: 3em;
+}
+
+input[type=text] {	
+	border: none;
+	border-bottom: 2px solid black;
+	background: #F6F8FA;
+	width: 100%;
+	margin-bottom: 2em;
+	height: 3em;
+}
+
+textarea {
+	border: none;
+	border-bottom: 2px solid black;
+	background: #F6F8FA;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    border:0 none;
+    cursor:pointer;
+    border: 3px solid green;
+	height: 50px;
+	text-align:center;
+	width:100%;
+	background: rgba(0,0,0,1);
+	color:#fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:1em;	
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-align: center;
+	width: 100vw;
+	background: black;
+	color:gray;
+	font-weight: 100;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin: 0;
 }
 
 }
