@@ -86,6 +86,10 @@ ul, ul li {
 	padding: 1rem;
 }
 
+a {
+	text-decoration: none;
+}
+
 
 .menu ul li:hover {
 	font-weight: 400;
