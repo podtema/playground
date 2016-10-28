@@ -15,7 +15,7 @@ function Application(props) {
 			<div className="row content">
 				<div className="col-md-3"></div>
 				<div className="col-md-6">
-					<h3 className="text-center">App content</h3>
+					<h3 className="text-center">App content and stuff</h3>
 					<h3 className="text-center"><small>and more content</small></h3>
 				</div>
 				<div className="col-md-3"></div>
@@ -40,7 +40,7 @@ Application.propTypes = {
 };
 
 Application.defaultProps = {
-	title: "Path to Superbowl LI",
+	title: "Path to Superbowl",
 	subtitle: "Go Seahawks!",
 }
 
