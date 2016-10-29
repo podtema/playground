@@ -1,5 +1,12 @@
+function Dice(sides, title) {
+	this.sides = sides;
+	this.title = title;
+}
+
+let diceSides = new Dice(6, "die");
+
 let dice = {
-	sides: 6, 
+	sides: diceSides.sides, 
 	roll: function () {
 		let randomNumber = Math.floor(Math.random() * this.sides) + 1;
 		return randomNumber;
