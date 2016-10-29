@@ -1,26 +1,13 @@
-function Dice(sides, title) {
+function Dice(sides) {
 	this.sides = sides;
-	this.title = title;
-}
-
-let diceSides = new Dice(6, "die");
-
-let dice = {
-	sides: diceSides.sides, 
-	roll: function () {
+	this.roll = function () {
 		let randomNumber = Math.floor(Math.random() * this.sides) + 1;
 		return randomNumber;
 		}
 	}
 
-function printNumber(number) {
-	let placeholder = document.getElementById("placeholder");
-	placeholder.innerHTML = number;
-	}
-
-var button = document.getElementById("button");
-
 button.onclick = function() {
-	let result = dice.roll();
-	printNumber(result);
+	let placeholder = document.getElementById("placeholder");
+	let dice = new Dice(6);
+	placeholder.innerHTML = dice.roll();
 	};
