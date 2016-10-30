@@ -73,11 +73,17 @@ Song.prototype.toHTML = function() {
 
 var playlist = new Playlist();
 
+// Will use file/database later on
 var spaceOddity = new Song("Space Oddity", "David Bowie", "4:18");
 var imagine = new Song("Imagine", "John Lennon", "3:18");
+var imReady = new Song("I'm Ready", "AJR", "3:47");
+var radioactive = new Song("Radioactive", "Imagine Dragons", "3:06");
 
+//will loop through the database later on
 playlist.add(spaceOddity);
 playlist.add(imagine);
+playlist.add(imReady);
+playlist.add(radioactive);
 
 var playlistElement = document.getElementById("playlist");
 
