@@ -1,3 +1,76 @@
+// Playlist Object Prototype
+
+function Playlist() {
+	this.songs = [];
+	this.nowPlayingIndex = 0;
+}
+
+Playlist.prototype.add = function(song) {
+	this.songs.push(song);
+};
+
+Playlist.prototype.play = function() {
+	var currentSong = this.songs[this.nowPlayingIndex];
+	currentSong.play();
+};
+
+Playlist.prototype.stop = function(){
+	var currentSong = this.songs[this.nowPlayingIndex];
+	currentSong.stop();
+};
+
+Playlist.prototype.next = function() {
+	this.stop();
+	this.nowPlayingIndex++;
+	if(this.nowPlayingIndex >= this.songs.lenght) {
+		this.nowPlayingIndex = 0;
+	}
+	this.play();
+};
+
+Playlist.prototype.renderInElement = function(list) {
+	list.innerHTML = "";
+	for (var i = 0; i < this.songs.length; i++) {
+	list.innerHTML += this.songs[i].toHTML();
+	}
+
+};
+
+// Song Object Prototype
+
+function Song(title, artist, duration) {
+	this.title = title;
+	this.artist = artist;
+	this.duration = duration;
+	this.isPlaying = false;
+}
+
+Song.prototype.play = function() {
+	this.isPlaying = true;
+};
+
+Song.prototype.stop = function() {
+	this.isPlaying = false;
+};
+
+Song.prototype.toHTML = function() {
+	var htmlString = "<li";
+	if(this.isPlaying){
+		htmlString += " class='current'";
+		}
+	htmlString += ">";
+	htmlString += this.title;
+	htmlString += " - ";
+	htmlString += this.artist;
+	htmlString += "<span class='duration'>";
+	htmlString += this.duration; 
+	htmlString += "</span></li>";
+
+	return htmlString;
+};
+
+// Main Functionality (buttons, visual render, access to files, other controls)
+
 var playlist = new Playlist();
 
 var spaceOddity = new Song("Space Oddity", "David Bowie", "4:18");
