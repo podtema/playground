@@ -7,8 +7,18 @@ body {
 	font-weight: 300;
 }
 
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+content:
+
 .title {
 	margin-bottom: 10%;
+
 }
 
 .available {
