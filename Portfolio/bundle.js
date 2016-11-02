@@ -44,9 +44,9 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
-	var _react = __webpack_require__(1);
+	var _react = __webpack_require__(2);
 
 	var _react2 = _interopRequireDefault(_react);
 
@@ -54,378 +54,28 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	__webpack_require__(172);
+	var _Portfolio = __webpack_require__(172);
 
-	__webpack_require__(176);
+	var _Portfolio2 = _interopRequireDefault(_Portfolio);
 
-	__webpack_require__(178);
+	__webpack_require__(173);
+
+	__webpack_require__(177);
+
+	__webpack_require__(179);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var copyrightYear = new Date().getFullYear();
+	//React Stuff
+	_reactDom2.default.render(_react2.default.createElement(_Portfolio2.default, null), document.getElementById('react-app'));
 
 	//CSS
-	//React Stuff
 
-
-	function Application(props) {
-		return _react2.default.createElement(
-			'div',
-			null,
-			_react2.default.createElement(
-				'div',
-				{ className: 'row' },
-				_react2.default.createElement(
-					'nav',
-					null,
-					_react2.default.createElement(
-						'ul',
-						null,
-						_react2.default.createElement(
-							'li',
-							null,
-							_react2.default.createElement(
-								'a',
-								{ href: 'https://github.com/rosnovsky', target: '_blank' },
-								'github'
-							)
-						),
-						_react2.default.createElement(
-							'li',
-							null,
-							_react2.default.createElement(
-								'a',
-								{ href: 'https://behance.net/podtema', target: '_blank' },
-								'b\u0113hance'
-							)
-						),
-						_react2.default.createElement(
-							'li',
-							null,
-							_react2.default.createElement(
-								'a',
-								{ href: 'https://linkedin.com/in/rosnovsky', target: '_blank' },
-								'linkedin'
-							)
-						),
-						_react2.default.createElement(
-							'li',
-							null,
-							_react2.default.createElement(
-								'a',
-								{ href: 'https://facebook.com/rosnovsky', target: '_blank' },
-								'facebook'
-							)
-						),
-						_react2.default.createElement(
-							'li',
-							null,
-							_react2.default.createElement(
-								'a',
-								{ href: 'https://twitter.com/rosnovsky', target: '_blank' },
-								'twitter'
-							)
-						)
-					)
-				)
-			),
-			_react2.default.createElement(
-				'div',
-				{ className: 'row title' },
-				_react2.default.createElement(
-					'h1',
-					null,
-					props.name
-				),
-				_react2.default.createElement(
-					'h3',
-					null,
-					props.position
-				)
-			),
-			_react2.default.createElement(
-				'div',
-				{ className: 'row content' },
-				_react2.default.createElement(
-					'div',
-					{ className: 'six columns' },
-					_react2.default.createElement(
-						'h4',
-						null,
-						'Hi there!'
-					),
-					_react2.default.createElement(
-						'p',
-						null,
-						'Thanks for dropping by. I design and develop easy-to-use and clear user interfaces for web sites and applications, both web and iOS/Android. I fully embrace mobile-first, device-specific designs, latest standards and best practices in producing and developing interfaces and websites. '
-					),
-					_react2.default.createElement(
-						'p',
-						null,
-						_react2.default.createElement(
-							'a',
-							{ href: 'artem-rosnovskiy-front-end.pdf' },
-							'Download my updated resum\xE9'
-						),
-						' and drop me a line at ',
-						_react2.default.createElement(
-							'a',
-							{ href: 'mailto:inbox@rosnovsky.us', className: 'email' },
-							'inbox@rosnovsky.us'
-						),
-						'. I\u2019m ',
-						_react2.default.createElement(
-							'span',
-							{ className: 'available' },
-							'available'
-						),
-						' for hire.'
-					)
-				),
-				_react2.default.createElement(
-					'div',
-					{ className: 'six columns' },
-					_react2.default.createElement(
-						'h4',
-						null,
-						'Skills & Expertise'
-					),
-					_react2.default.createElement(
-						'p',
-						null,
-						_react2.default.createElement(
-							'strong',
-							null,
-							'Web dev'
-						),
-						': HTML5, CSS3, Javascript, jQuery, Gulp, Webpack, npm, Sass, Bootstrap, git, Ubuntu, Apache, nginx, PHP, MySQL'
-					),
-					_react2.default.createElement(
-						'p',
-						null,
-						_react2.default.createElement(
-							'strong',
-							null,
-							'Design and Media'
-						),
-						': Adobe Photoshop, Illustrator, AfterEffectr, Premier Pro, Dreamweaver, Flash (including ActionScript), Audition, Sketch by Bohemian'
-					),
-					_react2.default.createElement(
-						'p',
-						null,
-						_react2.default.createElement(
-							'strong',
-							null,
-							'In Progress'
-						),
-						': React , Node.js, Angular 2, Grunt, Ruby on Rails, Swift'
-					)
-				)
-			),
-			_react2.default.createElement(
-				'div',
-				{ className: 'row' },
-				_react2.default.createElement(
-					'div',
-					{ className: 'twelve columns' },
-					_react2.default.createElement(
-						'h4',
-						null,
-						'Current Reading'
-					)
-				)
-			),
-			_react2.default.createElement(
-				'div',
-				{ className: 'row books' },
-				_react2.default.createElement(
-					'div',
-					{ className: 'three columns book' },
-					_react2.default.createElement(
-						'a',
-						{ href: 'http://amzn.to/2epRd6H', target: '_blank' },
-						_react2.default.createElement('img', { src: 'images/22814239.jpg', alt: 'You don\'t know JS' }),
-						_react2.default.createElement(
-							'p',
-							null,
-							'You Don\'t Know JS: this & Object Prototypes'
-						)
-					)
-				),
-				_react2.default.createElement(
-					'div',
-					{ className: 'three columns book' },
-					_react2.default.createElement(
-						'a',
-						{ href: 'http://amzn.to/2eSLIxI', target: '_blank' },
-						_react2.default.createElement('img', { src: 'images/20830437.jpg', alt: 'CSS Secrets' }),
-						_react2.default.createElement(
-							'p',
-							null,
-							'CSS Secrets: Better Solutions to Everyday Web Design Problems'
-						)
-					)
-				),
-				_react2.default.createElement(
-					'div',
-					{ className: 'three columns book' },
-					_react2.default.createElement(
-						'a',
-						{ href: 'http://amzn.to/2eSLN4u', target: '_blank' },
-						_react2.default.createElement('img', { src: 'images/17204679.jpg', alt: 'Man\'s Search for Meaning' }),
-						_react2.default.createElement(
-							'p',
-							null,
-							'Man\'s Search for Meaning'
-						)
-					)
-				),
-				_react2.default.createElement(
-					'div',
-					{ className: 'three columns book' },
-					_react2.default.createElement(
-						'a',
-						{ href: 'http://amzn.to/2flyqOx', target: '_blank' },
-						_react2.default.createElement('img', { src: 'images/27426984.jpg', alt: 'Disrupted' }),
-						_react2.default.createElement(
-							'p',
-							null,
-							'Disrupted: My Misadventure in the Start-Up Bubble'
-						)
-					)
-				)
-			),
-			_react2.default.createElement(
-				'div',
-				{ className: 'row footer' },
-				_react2.default.createElement(
-					'p',
-					null,
-					'\xA9 ',
-					copyrightYear
-				)
-			)
-		);
-	}
-
-	Application.propTypes = {
-		name: _react2.default.PropTypes.string.isRequired,
-		position: _react2.default.PropTypes.string.isRequired
-	};
-
-	Application.defaultProps = {
-		name: "Artem Rosnovskiy",
-		position: "front end ux/ui dev"
-	};
-
-	_reactDom2.default.render(_react2.default.createElement(Application, null), document.getElementById('react-app'));
+	 ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "/Users/rosnovsky/Dropbox/Web Projects/Playground/Portfolio/js/app.js"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "/Users/rosnovsky/Dropbox/Web Projects/Playground/Portfolio/js/app.js"); } } })();
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	module.exports = __webpack_require__(2);
-
-
-/***/ },
-/* 2 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 * @providesModule React
-	 */
-
-	'use strict';
-
-	var _assign = __webpack_require__(4);
-
-	var ReactChildren = __webpack_require__(5);
-	var ReactComponent = __webpack_require__(17);
-	var ReactPureComponent = __webpack_require__(20);
-	var ReactClass = __webpack_require__(21);
-	var ReactDOMFactories = __webpack_require__(26);
-	var ReactElement = __webpack_require__(9);
-	var ReactPropTypes = __webpack_require__(31);
-	var ReactVersion = __webpack_require__(32);
-
-	var onlyChild = __webpack_require__(33);
-	var warning = __webpack_require__(11);
-
-	var createElement = ReactElement.createElement;
-	var createFactory = ReactElement.createFactory;
-	var cloneElement = ReactElement.cloneElement;
-
-	if (process.env.NODE_ENV !== 'production') {
-	  var ReactElementValidator = __webpack_require__(27);
-	  createElement = ReactElementValidator.createElement;
-	  createFactory = ReactElementValidator.createFactory;
-	  cloneElement = ReactElementValidator.cloneElement;
-	}
-
-	var __spread = _assign;
-
-	if (process.env.NODE_ENV !== 'production') {
-	  var warned = false;
-	  __spread = function () {
-	    process.env.NODE_ENV !== 'production' ? warning(warned, 'React.__spread is deprecated and should not be used. Use ' + 'Object.assign directly or another helper function with similar ' + 'semantics. You may be seeing this warning due to your compiler. ' + 'See https://fb.me/react-spread-deprecation for more details.') : void 0;
-	    warned = true;
-	    return _assign.apply(null, arguments);
-	  };
-	}
-
-	var React = {
-
-	  // Modern
-
-	  Children: {
-	    map: ReactChildren.map,
-	    forEach: ReactChildren.forEach,
-	    count: ReactChildren.count,
-	    toArray: ReactChildren.toArray,
-	    only: onlyChild
-	  },
-
-	  Component: ReactComponent,
-	  PureComponent: ReactPureComponent,
-
-	  createElement: createElement,
-	  cloneElement: cloneElement,
-	  isValidElement: ReactElement.isValidElement,
-
-	  // Classic
-
-	  PropTypes: ReactPropTypes,
-	  createClass: ReactClass.createClass,
-	  createFactory: createFactory,
-	  createMixin: function (mixin) {
-	    // Currently a noop. Will be used to validate and trace mixins.
-	    return mixin;
-	  },
-
-	  // This looks DOM specific but these are actually isomorphic helpers
-	  // since they are just generating DOM strings.
-	  DOM: ReactDOMFactories,
-
-	  version: ReactVersion,
-
-	  // Deprecated hook for JSX spread, don't use this for anything.
-	  __spread: __spread
-	};
-
-	module.exports = React;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
-
-/***/ },
-/* 3 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -609,6 +259,110 @@
 	};
 	process.umask = function() { return 0; };
 
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	module.exports = __webpack_require__(3);
+
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-present, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 *
+	 * @providesModule React
+	 */
+
+	'use strict';
+
+	var _assign = __webpack_require__(4);
+
+	var ReactChildren = __webpack_require__(5);
+	var ReactComponent = __webpack_require__(17);
+	var ReactPureComponent = __webpack_require__(20);
+	var ReactClass = __webpack_require__(21);
+	var ReactDOMFactories = __webpack_require__(26);
+	var ReactElement = __webpack_require__(9);
+	var ReactPropTypes = __webpack_require__(31);
+	var ReactVersion = __webpack_require__(32);
+
+	var onlyChild = __webpack_require__(33);
+	var warning = __webpack_require__(11);
+
+	var createElement = ReactElement.createElement;
+	var createFactory = ReactElement.createFactory;
+	var cloneElement = ReactElement.cloneElement;
+
+	if (process.env.NODE_ENV !== 'production') {
+	  var ReactElementValidator = __webpack_require__(27);
+	  createElement = ReactElementValidator.createElement;
+	  createFactory = ReactElementValidator.createFactory;
+	  cloneElement = ReactElementValidator.cloneElement;
+	}
+
+	var __spread = _assign;
+
+	if (process.env.NODE_ENV !== 'production') {
+	  var warned = false;
+	  __spread = function () {
+	    process.env.NODE_ENV !== 'production' ? warning(warned, 'React.__spread is deprecated and should not be used. Use ' + 'Object.assign directly or another helper function with similar ' + 'semantics. You may be seeing this warning due to your compiler. ' + 'See https://fb.me/react-spread-deprecation for more details.') : void 0;
+	    warned = true;
+	    return _assign.apply(null, arguments);
+	  };
+	}
+
+	var React = {
+
+	  // Modern
+
+	  Children: {
+	    map: ReactChildren.map,
+	    forEach: ReactChildren.forEach,
+	    count: ReactChildren.count,
+	    toArray: ReactChildren.toArray,
+	    only: onlyChild
+	  },
+
+	  Component: ReactComponent,
+	  PureComponent: ReactPureComponent,
+
+	  createElement: createElement,
+	  cloneElement: cloneElement,
+	  isValidElement: ReactElement.isValidElement,
+
+	  // Classic
+
+	  PropTypes: ReactPropTypes,
+	  createClass: ReactClass.createClass,
+	  createFactory: createFactory,
+	  createMixin: function (mixin) {
+	    // Currently a noop. Will be used to validate and trace mixins.
+	    return mixin;
+	  },
+
+	  // This looks DOM specific but these are actually isomorphic helpers
+	  // since they are just generating DOM strings.
+	  DOM: ReactDOMFactories,
+
+	  version: ReactVersion,
+
+	  // Deprecated hook for JSX spread, don't use this for anything.
+	  __spread: __spread
+	};
+
+	module.exports = React;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 4 */
@@ -1020,7 +774,7 @@
 	};
 
 	module.exports = PooledClass;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 7 */
@@ -1119,7 +873,7 @@
 	}
 
 	module.exports = invariant;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 9 */
@@ -1473,7 +1227,7 @@
 	ReactElement.REACT_ELEMENT_TYPE = REACT_ELEMENT_TYPE;
 
 	module.exports = ReactElement;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 10 */
@@ -1581,7 +1335,7 @@
 	}
 
 	module.exports = warning;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 12 */
@@ -1654,7 +1408,7 @@
 	}
 
 	module.exports = canDefineProperty;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 14 */
@@ -1827,7 +1581,7 @@
 	}
 
 	module.exports = traverseAllChildren;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 15 */
@@ -2061,7 +1815,7 @@
 	}
 
 	module.exports = ReactComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 18 */
@@ -2163,7 +1917,7 @@
 	};
 
 	module.exports = ReactNoopUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 19 */
@@ -2188,7 +1942,7 @@
 	}
 
 	module.exports = emptyObject;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 20 */
@@ -2973,7 +2727,7 @@
 	};
 
 	module.exports = ReactClass;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 22 */
@@ -3053,7 +2807,7 @@
 	};
 
 	module.exports = keyMirror;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 24 */
@@ -3083,7 +2837,7 @@
 	}
 
 	module.exports = ReactPropTypeLocationNames;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 25 */
@@ -3298,7 +3052,7 @@
 	};
 
 	module.exports = ReactDOMFactories;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 27 */
@@ -3532,7 +3286,7 @@
 	};
 
 	module.exports = ReactElementValidator;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 28 */
@@ -3880,7 +3634,7 @@
 	};
 
 	module.exports = ReactComponentTreeHook;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 29 */
@@ -3973,7 +3727,7 @@
 	}
 
 	module.exports = checkReactTypeSpec;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 30 */
@@ -4431,7 +4185,7 @@
 	}
 
 	module.exports = ReactPropTypes;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 32 */
@@ -4494,7 +4248,7 @@
 	}
 
 	module.exports = onlyChild;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 34 */
@@ -4619,7 +4373,7 @@
 	}
 
 	module.exports = ReactDOM;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 36 */
@@ -4813,7 +4567,7 @@
 	};
 
 	module.exports = ReactDOMComponentTree;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 37 */
@@ -5025,7 +4779,7 @@
 	};
 
 	module.exports = DOMProperty;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 38 */
@@ -5777,7 +5531,7 @@
 	};
 
 	module.exports = EventPropagators;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 43 */
@@ -6034,7 +5788,7 @@
 	};
 
 	module.exports = EventPluginHub;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 44 */
@@ -6287,7 +6041,7 @@
 	};
 
 	module.exports = EventPluginRegistry;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 45 */
@@ -6522,7 +6276,7 @@
 	};
 
 	module.exports = EventPluginUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 46 */
@@ -6604,7 +6358,7 @@
 	}
 
 	module.exports = ReactErrorUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 47 */
@@ -6668,7 +6422,7 @@
 	}
 
 	module.exports = accumulateInto;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 48 */
@@ -7197,7 +6951,7 @@
 	    process.env.NODE_ENV !== 'production' ? warning(warningCondition, 'This synthetic event is reused for performance reasons. If you\'re seeing this, ' + 'you\'re %s `%s` on a released/nullified synthetic event. %s. ' + 'If you must keep the original synthetic event around, use event.persist(). ' + 'See https://fb.me/react-event-pooling for more information.', action, propName, result) : void 0;
 	  }
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 54 */
@@ -7826,7 +7580,7 @@
 	};
 
 	module.exports = ReactUpdates;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 57 */
@@ -7938,7 +7692,7 @@
 	PooledClass.addPoolingTo(CallbackQueue);
 
 	module.exports = CallbackQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 58 */
@@ -8139,7 +7893,7 @@
 	};
 
 	module.exports = ReactReconciler;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 60 */
@@ -8324,7 +8078,7 @@
 	};
 
 	module.exports = ReactOwner;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 62 */
@@ -8351,7 +8105,7 @@
 	}
 
 	module.exports = { debugTool: debugTool };
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 63 */
@@ -8658,7 +8412,7 @@
 	}
 
 	module.exports = ReactDebugTool;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 64 */
@@ -8700,7 +8454,7 @@
 	};
 
 	module.exports = ReactInvalidSetStateWarningHook;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 65 */
@@ -8802,7 +8556,7 @@
 	};
 
 	module.exports = ReactChildrenMutationWarningHook;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 67 */
@@ -9106,7 +8860,7 @@
 	};
 
 	module.exports = Transaction;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 70 */
@@ -10082,7 +9836,7 @@
 	};
 
 	module.exports = DOMChildrenOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 82 */
@@ -10605,7 +10359,7 @@
 	};
 
 	module.exports = Danger;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 89 */
@@ -10694,7 +10448,7 @@
 	}
 
 	module.exports = createNodesFromMarkup;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 90 */
@@ -10826,7 +10580,7 @@
 	}
 
 	module.exports = createArrayFromMixed;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 91 */
@@ -10926,7 +10680,7 @@
 	}
 
 	module.exports = getMarkupWrap;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 92 */
@@ -12014,7 +11768,7 @@
 	_assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mixin);
 
 	module.exports = ReactDOMComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 95 */
@@ -12285,7 +12039,7 @@
 	};
 
 	module.exports = CSSPropertyOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 98 */
@@ -12603,7 +12357,7 @@
 	}
 
 	module.exports = dangerousStyleValue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 102 */
@@ -12944,7 +12698,7 @@
 	};
 
 	module.exports = DOMPropertyOperations;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 106 */
@@ -13813,7 +13567,7 @@
 	}
 
 	module.exports = ReactDOMInput;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 113 */
@@ -13955,7 +13709,7 @@
 	};
 
 	module.exports = LinkedValueUtils;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 114 */
@@ -14084,7 +13838,7 @@
 	};
 
 	module.exports = ReactDOMOption;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 115 */
@@ -14291,7 +14045,7 @@
 	}
 
 	module.exports = ReactDOMSelect;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 116 */
@@ -14452,7 +14206,7 @@
 	}
 
 	module.exports = ReactDOMTextarea;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 117 */
@@ -14909,7 +14663,7 @@
 	};
 
 	module.exports = ReactMultiChild;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 118 */
@@ -14960,7 +14714,7 @@
 	};
 
 	module.exports = ReactComponentEnvironment;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 119 */
@@ -15173,7 +14927,7 @@
 	};
 
 	module.exports = ReactChildReconciler;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 121 */
@@ -15298,7 +15052,7 @@
 	}
 
 	module.exports = instantiateReactComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 122 */
@@ -16208,7 +15962,7 @@
 	};
 
 	module.exports = ReactCompositeComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 123 */
@@ -16254,7 +16008,7 @@
 	};
 
 	module.exports = ReactNodeTypes;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 124 */
@@ -16490,7 +16244,7 @@
 	};
 
 	module.exports = ReactHostComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 128 */
@@ -16572,7 +16326,7 @@
 	}
 
 	module.exports = flattenChildren;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 129 */
@@ -16668,7 +16422,7 @@
 	PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 	module.exports = ReactServerRenderingTransaction;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 130 */
@@ -16815,7 +16569,7 @@
 	}();
 
 	module.exports = ReactServerUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 131 */
@@ -17047,7 +16801,7 @@
 	};
 
 	module.exports = ReactUpdateQueue;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 132 */
@@ -17435,7 +17189,7 @@
 	}
 
 	module.exports = validateDOMNesting;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 133 */
@@ -17642,7 +17396,7 @@
 	  traverseTwoPhase: traverseTwoPhase,
 	  traverseEnterLeave: traverseEnterLeave
 	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 135 */
@@ -17812,7 +17566,7 @@
 	});
 
 	module.exports = ReactDOMTextComponent;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 136 */
@@ -18136,7 +17890,7 @@
 	};
 
 	module.exports = EventListener;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 139 */
@@ -18404,7 +18158,7 @@
 	PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 	module.exports = ReactReconcileTransaction;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 142 */
@@ -20117,7 +19871,7 @@
 	};
 
 	module.exports = SimpleEventPlugin;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 152 */
@@ -21230,7 +20984,7 @@
 	};
 
 	module.exports = ReactMount;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 163 */
@@ -21269,7 +21023,7 @@
 	}
 
 	module.exports = ReactDOMContainerInfo;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 164 */
@@ -21462,7 +21216,7 @@
 	}
 
 	module.exports = findDOMNode;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 168 */
@@ -21636,7 +21390,7 @@
 	};
 
 	module.exports = ReactDOMUnknownPropertyHook;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 171 */
@@ -21685,19 +21439,296 @@
 	};
 
 	module.exports = ReactDOMNullInputValuePropHook;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
 /* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/* WEBPACK VAR INJECTION */(function(process) {"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//Copyright Year
+	var copyrightYear = new Date().getFullYear();
+
+	// below to be replaced by Nav module (with link previews), Content module with autoupdated skills, autoupdated books module.
+
+	// Import React
+	function Portfolio(props) {
+		return _react2.default.createElement(
+			"div",
+			null,
+			_react2.default.createElement(
+				"div",
+				{ className: "row" },
+				_react2.default.createElement(
+					"nav",
+					null,
+					_react2.default.createElement(
+						"ul",
+						null,
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement(
+								"a",
+								{ href: "https://github.com/rosnovsky", target: "_blank" },
+								"github"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement(
+								"a",
+								{ href: "https://behance.net/podtema", target: "_blank" },
+								"b\u0113hance"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement(
+								"a",
+								{ href: "https://linkedin.com/in/rosnovsky", target: "_blank" },
+								"linkedin"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement(
+								"a",
+								{ href: "https://facebook.com/rosnovsky", target: "_blank" },
+								"facebook"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement(
+								"a",
+								{ href: "https://twitter.com/rosnovsky", target: "_blank" },
+								"twitter"
+							)
+						)
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "row title" },
+				_react2.default.createElement(
+					"h1",
+					null,
+					props.name
+				),
+				_react2.default.createElement(
+					"h3",
+					null,
+					props.position
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "row content" },
+				_react2.default.createElement(
+					"div",
+					{ className: "six columns" },
+					_react2.default.createElement(
+						"h4",
+						null,
+						"Hi there!"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						"Thanks for dropping by. I design and develop easy-to-use and clear user interfaces for web sites and applications, both web and iOS/Android. I fully embrace mobile-first, device-specific designs, latest standards and best practices in producing and developing interfaces and websites. "
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: "artem-rosnovskiy-front-end.pdf" },
+							"Download my updated resum\xE9"
+						),
+						" and drop me a line at ",
+						_react2.default.createElement(
+							"a",
+							{ href: "mailto:inbox@rosnovsky.us", className: "email" },
+							"inbox@rosnovsky.us"
+						),
+						". I\u2019m ",
+						_react2.default.createElement(
+							"span",
+							{ className: "available" },
+							"available"
+						),
+						" for hire."
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "six columns" },
+					_react2.default.createElement(
+						"h4",
+						null,
+						"Skills & Expertise"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						_react2.default.createElement(
+							"strong",
+							null,
+							"Web dev"
+						),
+						": HTML5, CSS3, Javascript, jQuery, Gulp, Webpack, npm, Sass, Bootstrap, git, Ubuntu, Apache, nginx, PHP, MySQL"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						_react2.default.createElement(
+							"strong",
+							null,
+							"Design and Media"
+						),
+						": Adobe Photoshop, Illustrator, AfterEffectr, Premier Pro, Dreamweaver, Flash (including ActionScript), Audition, Sketch by Bohemian"
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						_react2.default.createElement(
+							"strong",
+							null,
+							"In Progress"
+						),
+						": React , Node.js, Angular 2, MongoDB, Swift"
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "row" },
+				_react2.default.createElement(
+					"div",
+					{ className: "twelve columns" },
+					_react2.default.createElement(
+						"h4",
+						null,
+						"Current Reading"
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "row books" },
+				_react2.default.createElement(
+					"div",
+					{ className: "three columns book" },
+					_react2.default.createElement(
+						"a",
+						{ href: "http://amzn.to/2epRd6H", target: "_blank" },
+						_react2.default.createElement("img", { src: "images/22814239.jpg", alt: "You don't know JS" }),
+						_react2.default.createElement(
+							"p",
+							null,
+							"You Don't Know JS: this & Object Prototypes"
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "three columns book" },
+					_react2.default.createElement(
+						"a",
+						{ href: "http://amzn.to/2eSLIxI", target: "_blank" },
+						_react2.default.createElement("img", { src: "images/20830437.jpg", alt: "CSS Secrets" }),
+						_react2.default.createElement(
+							"p",
+							null,
+							"CSS Secrets: Better Solutions to Everyday Web Design Problems"
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "three columns book" },
+					_react2.default.createElement(
+						"a",
+						{ href: "http://amzn.to/2eSLN4u", target: "_blank" },
+						_react2.default.createElement("img", { src: "images/17204679.jpg", alt: "Man's Search for Meaning" }),
+						_react2.default.createElement(
+							"p",
+							null,
+							"Man's Search for Meaning"
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "three columns book" },
+					_react2.default.createElement(
+						"a",
+						{ href: "http://amzn.to/2flyqOx", target: "_blank" },
+						_react2.default.createElement("img", { src: "images/27426984.jpg", alt: "Disrupted" }),
+						_react2.default.createElement(
+							"p",
+							null,
+							"Disrupted: My Misadventure in the Start-Up Bubble"
+						)
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "row footer" },
+				_react2.default.createElement(
+					"p",
+					null,
+					"\xA9 ",
+					copyrightYear
+				)
+			)
+		);
+	}
+
+	Portfolio.propTypes = {
+		name: _react2.default.PropTypes.string.isRequired,
+		position: _react2.default.PropTypes.string.isRequired
+	};
+
+	Portfolio.defaultProps = {
+		name: "Artem Rosnovskiy",
+		position: "front end ux/ui dev"
+	};
+
+	exports.default = Portfolio;
+
+	 ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "/Users/rosnovsky/Dropbox/Web Projects/Playground/Portfolio/components/Portfolio.js"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "/Users/rosnovsky/Dropbox/Web Projects/Playground/Portfolio/components/Portfolio.js"); } } })();
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 173 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(173);
+	var content = __webpack_require__(174);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(175)(content, {});
+	var update = __webpack_require__(176)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -21714,10 +21745,10 @@
 	}
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(174)();
+	exports = module.exports = __webpack_require__(175)();
 	// imports
 
 
@@ -21728,7 +21759,7 @@
 
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports) {
 
 	/*
@@ -21784,7 +21815,7 @@
 
 
 /***/ },
-/* 175 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -22036,16 +22067,16 @@
 
 
 /***/ },
-/* 176 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(177);
+	var content = __webpack_require__(178);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(175)(content, {});
+	var update = __webpack_require__(176)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -22062,10 +22093,10 @@
 	}
 
 /***/ },
-/* 177 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(174)();
+	exports = module.exports = __webpack_require__(175)();
 	// imports
 
 
@@ -22076,16 +22107,16 @@
 
 
 /***/ },
-/* 178 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(179);
+	var content = __webpack_require__(180);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(175)(content, {});
+	var update = __webpack_require__(176)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -22102,15 +22133,15 @@
 	}
 
 /***/ },
-/* 179 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(174)();
+	exports = module.exports = __webpack_require__(175)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "body {\n\tcolor: white;\n\tbackground-image: radial-gradient(50% 68%, #298DBD 20%, #125488 80%);\n\tbackground-size: cover;\n\tmax-height: 100vh;\n\tmax-width: 100vw;\n\tfont-weight: 300;\n}\n\n.loading {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n}\n\n.title, {\n\tmargin-bottom: 10%;\n}\n\n.content {\n\tmargin-bottom: 5%;\n}\n\n.available {\n\tcolor: #00FF00;\n\tfont-weight: bold;\n\t/*border: 1px solid white;*/\n\tpadding: 5px;\n}\n\na {\n\tcolor: inherit;\n\ttext-decoration: inherit;\n\tborder-bottom: 1px dotted white;\n}\n\na:hover {\n\tcolor: #1bccc1;\n\tborder-bottom: 1px dashed #1bccc1;\n\ttext-transform: capitalize;\n\tfont-weight: bold;\n}\n\n.email:hover {\n\ttext-transform: none;\n}\n\nh1 {\n\tfont-weight: bold;\n\tfont-size: 3em;\n\tmargin-bottom: 0.25em;\n}\n\nh3 {\n\tfont-size: 1.5em;\n\tfont-weight: 300;\n\tmargin-bottom: 5%;\n}\n\nnav ul li {\n\tdisplay: inline-block;\n\tmargin-right: 5rem;\n\tmargin-top: 2rem;\n}\n\n.books {\n\tjustify-content: center;\n}\n\n.books a, .books a:hover {\n\tborder: none;\n\tcolor: inherit;\n\ttext-transform: none;\n}\n\n.book img:hover {\n\ttransition: box-shadow 0.6s ease-in-out;\n\tbox-shadow: 0 5px 15px white;\n}\n\n.book {\n\tdisplay: flex;\n\tjustify-content: center;\n\tflex-wrap: wrap;\n\tmargin-bottom:2em;\n\ttext-align: center;\n}\n\n.book p {\n\tmargin-bottom:1em;\n\tmargin-top:1em;\n}\n\n.footer {\n\ttext-align: center;\n}", ""]);
+	exports.push([module.id, "body {\n  color: white;\n  background-image: radial-gradient(50% 68%, #298DBD 20%, #125488 80%);\n  background-size: cover;\n  max-height: 100vh;\n  max-width: 100vw;\n  font-weight: 300; }\n\n.loading {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh; }\n\n.title {\n  margin-bottom: 10%; }\n\n.content {\n  margin-bottom: 5%; }\n\n.available {\n  color: #00FF00;\n  font-weight: bold;\n  /*border: 1px solid white;*/\n  padding: 5px; }\n\na {\n  color: inherit;\n  text-decoration: inherit;\n  border-bottom: 1px dotted white; }\n  a :hover {\n    color: #1bccc1;\n    border-bottom: 1px dashed #1bccc1;\n    text-transform: capitalize;\n    font-weight: bold; }\n\n.email:hover {\n  text-transform: none; }\n\nh1 {\n  font-weight: bold;\n  font-size: 3em;\n  margin-bottom: 0.25em; }\n\nh3 {\n  font-size: 1.5em;\n  font-weight: 300;\n  margin-bottom: 5%; }\n\nnav ul li {\n  display: inline-block;\n  margin-right: 5rem;\n  margin-top: 2rem; }\n\n.books {\n  justify-content: center; }\n  .books a, .books a:hover {\n    border: none;\n    color: inherit;\n    text-transform: none; }\n\n.book {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin-bottom: 2em;\n  text-align: center; }\n  .book p {\n    margin-bottom: 1em;\n    margin-top: 1em; }\n  .book img:hover {\n    transition: box-shadow 0.6s ease-in-out;\n    box-shadow: 0 5px 15px white; }\n\n.footer {\n  text-align: center; }\n\n/*# sourceMappingURL=styles.css.map */\n", ""]);
 
 	// exports
 
