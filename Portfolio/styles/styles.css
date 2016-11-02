@@ -14,11 +14,12 @@ body {
 	height: 100vh;
 }
 
-content:
-
-.title {
+.title, {
 	margin-bottom: 10%;
+}
 
+.content {
+	margin-bottom: 5%;
 }
 
 .available {
@@ -54,6 +55,7 @@ h1 {
 h3 {
 	font-size: 1.5em;
 	font-weight: 300;
+	margin-bottom: 5%;
 }
 
 nav ul li {

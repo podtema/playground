@@ -1,5 +1,12 @@
+//React Stuff
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+//CSS
+import '../styles/normalize.css';
+import '../styles/skeleton.css';
+import '../styles/styles.css';
+
 
 var copyrightYear = new Date().getFullYear();
 
@@ -23,7 +30,7 @@ function Application(props) {
 		<h3>{props.position}</h3>
 	</div>
 
-	<div className="row">
+	<div className="row content">
 		<div className="six columns">
 			<h4>Hi there!</h4>
 			<p>Thanks for dropping by. I design and develop easy-to-use and clear user interfaces for web sites and applications, both web and iOS/Android. I fully embrace mobile-first, device-specific designs, latest standards and best practices in producing and developing interfaces and websites. </p>
