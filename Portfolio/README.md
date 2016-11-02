@@ -1,6 +1,6 @@
 # README
 
-This is going to be my resume page. It is work in progress, so be patient. It's supposed to be fully responsive and retina-ready. 
+This is going to be my resume page. It is work in progress, so be patient. It's supposed to be fully responsive and retina-ready. Live version of the lates design and buils is available at http://rosnovsky.us.
 
 ## Features
 
