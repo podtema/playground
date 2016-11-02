@@ -41,7 +41,7 @@ function Application(props) {
 		</div>
 		
 		<div className="six columns">
-			<h4>Skills & Expertise</h4>
+			<h4>Skills &amp; Expertise</h4>
 			<p><strong>Web dev</strong>: HTML5, CSS3, Javascript, jQuery, Gulp, Webpack, npm, Sass, Bootstrap, git, Ubuntu, Apache, nginx, PHP, MySQL</p>
 			<p><strong>Design and Media</strong>: Adobe Photoshop, Illustrator, AfterEffectr, Premier Pro, Dreamweaver, Flash (including ActionScript), Audition, Sketch by Bohemian</p>
 			<p><strong>In Progress</strong>: React , Node.js, Angular 2, Grunt, Ruby on Rails, Swift</p>
@@ -56,8 +56,8 @@ function Application(props) {
 
 	<div className="row books">
 		<div className="three columns book">
-			<a href="http://amzn.to/2epRd6H" target="_blank"><img src="images/22814239.jpg" alt="You don't know JS"/>
-			<p>You Don\'t Know JS: this &amp; Object Prototypes</p></a>
+			<a href="http://amzn.to/2epRd6H" target="_blank"><img src="images/22814239.jpg" alt="You don&#39;t know JS"/>
+			<p>You Don&#39;t Know JS: this &amp; Object Prototypes</p></a>
 		</div>
 		
 		<div className="three columns book">
@@ -65,8 +65,8 @@ function Application(props) {
 			<p>CSS Secrets: Better Solutions to Everyday Web Design Problems</p></a>
 		</div>
 		<div className="three columns book">
-			<a href="http://amzn.to/2eSLN4u" target="_blank"><img src="images/17204679.jpg" alt="Man's Search for Meaning"/>
-			<p>Man\'s Search for Meaning</p></a>
+			<a href="http://amzn.to/2eSLN4u" target="_blank"><img src="images/17204679.jpg" alt="Man&#39;s Search for Meaning"/>
+			<p>Man&#39;s Search for Meaning</p></a>
 		</div>
 		<div className="three columns book">
 			<a href="http://amzn.to/2flyqOx" target="_blank"><img src="images/27426984.jpg" alt="Disrupted"/>
