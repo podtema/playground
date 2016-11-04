@@ -21565,8 +21565,8 @@
 						" and drop me a line at ",
 						_react2.default.createElement(
 							"a",
-							{ href: "mailto:inbox@rosnovsky.us", className: "email" },
-							"inbox@rosnovsky.us"
+							{ href: "mailto:artem.rosnovsky@gmail.com", className: "email" },
+							"artem.rosnovsky@gmail.com"
 						),
 						". I\u2019m ",
 						_react2.default.createElement(
@@ -21613,7 +21613,7 @@
 							null,
 							"In Progress"
 						),
-						": React , Node.js, Angular 2, MongoDB, Swift"
+						": React, Node.js, Angular 2, MongoDB, Swift"
 					)
 				)
 			),
