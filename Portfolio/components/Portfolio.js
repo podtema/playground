@@ -13,7 +13,6 @@ function Portfolio(props) {
 		<nav>
 			<ul>
 				<li><a href="https://github.com/rosnovsky" target="_blank">github</a></li>
-				<li><a href="https://behance.net/podtema" target="_blank">bēhance</a></li>
 				<li><a href="https://linkedin.com/in/rosnovsky" target="_blank">linkedin</a></li>
 				<li><a href="https://facebook.com/rosnovsky" target="_blank">facebook</a></li>
 				<li><a href="https://twitter.com/rosnovsky" target="_blank">twitter</a></li>
