@@ -28,12 +28,12 @@ body {
 		padding: 5px;
 	}
 
-	*a {
+	a {
 		color: inherit;
 		text-decoration: inherit;
 		border-bottom: 1px dotted white;
 
-		&:hover {
+		a:hover {
 		color: #1bccc1;
 		border-bottom: 1px dashed #1bccc1;
 		text-transform: capitalize;
